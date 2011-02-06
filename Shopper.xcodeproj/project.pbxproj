@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* ShopperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ShopperAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* ShopperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* ShopperViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		B0105E3212FDACE90065BB09 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0105E3112FDACE90065BB09 /* ListViewController.m */; };
+		B0105E4A12FDB0470065BB09 /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0105E4912FDB0470065BB09 /* AddItemViewController.m */; };
+		B0105E5F12FDB5C10065BB09 /* AddListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0105E5E12FDB5C10065BB09 /* AddListViewController.m */; };
+		B0105E9E12FDBCA20065BB09 /* AddListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0105E9D12FDBCA20065BB09 /* AddListView.xib */; };
+		B0105F2812FDFBD30065BB09 /* UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = B0105F2712FDFBD30065BB09 /* UUID.m */; };
+		B010605312FE434E0065BB09 /* Foursquare.m in Sources */ = {isa = PBXBuildFile; fileRef = B010605212FE434E0065BB09 /* Foursquare.m */; };
+		B010605612FE45A00065BB09 /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = B010605512FE45A00065BB09 /* Venue.m */; };
+		B079F38512FD7FA800EFF272 /* ListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B079F38412FD7FA800EFF272 /* ListsViewController.m */; };
+		B079F38812FD7FC000EFF272 /* CouponViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B079F38712FD7FC000EFF272 /* CouponViewController.m */; };
+		B079F38B12FD7FD300EFF272 /* PlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B079F38A12FD7FD300EFF272 /* PlaceViewController.m */; };
+		B079F3B612FD831200EFF272 /* ShopperTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B079F3B512FD831200EFF272 /* ShopperTableViewController.m */; };
+		B079F3D112FD84C900EFF272 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = B079F3D012FD84C900EFF272 /* List.m */; };
+		B079F3D312FD84ED00EFF272 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B079F3D212FD84ED00EFF272 /* CoreData.framework */; };
+		B079F3D812FD861100EFF272 /* ManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B079F3D712FD861100EFF272 /* ManagedObject.m */; };
+		B079F3F912FD86F000EFF272 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = B079F3F812FD86F000EFF272 /* Item.m */; };
+		B079F40212FD882A00EFF272 /* Coupon.m in Sources */ = {isa = PBXBuildFile; fileRef = B079F40112FD882A00EFF272 /* Coupon.m */; };
+		B079F40712FD8A0D00EFF272 /* shopper.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = B079F40612FD8A0D00EFF272 /* shopper.xcdatamodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* ShopperAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopperAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* ShopperAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopperAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* ShopperViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopperViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Shopper_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shopper_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Shopper-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Shopper-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B0105E3012FDACE90065BB09 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		B0105E3112FDACE90065BB09 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		B0105E4812FDB0470065BB09 /* AddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemViewController.h; sourceTree = "<group>"; };
+		B0105E4912FDB0470065BB09 /* AddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemViewController.m; sourceTree = "<group>"; };
+		B0105E5D12FDB5C10065BB09 /* AddListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddListViewController.h; sourceTree = "<group>"; };
+		B0105E5E12FDB5C10065BB09 /* AddListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddListViewController.m; sourceTree = "<group>"; };
+		B0105E9D12FDBCA20065BB09 /* AddListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddListView.xib; sourceTree = "<group>"; };
+		B0105F2612FDFBD30065BB09 /* UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUID.h; sourceTree = "<group>"; };
+		B0105F2712FDFBD30065BB09 /* UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUID.m; sourceTree = "<group>"; };
+		B010605112FE434E0065BB09 /* Foursquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foursquare.h; sourceTree = "<group>"; };
+		B010605212FE434E0065BB09 /* Foursquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foursquare.m; sourceTree = "<group>"; };
+		B010605412FE45A00065BB09 /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
+		B010605512FE45A00065BB09 /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
+		B079F38312FD7FA800EFF272 /* ListsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListsViewController.h; sourceTree = "<group>"; };
+		B079F38412FD7FA800EFF272 /* ListsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListsViewController.m; sourceTree = "<group>"; };
+		B079F38612FD7FC000EFF272 /* CouponViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponViewController.h; sourceTree = "<group>"; };
+		B079F38712FD7FC000EFF272 /* CouponViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponViewController.m; sourceTree = "<group>"; };
+		B079F38912FD7FD300EFF272 /* PlaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceViewController.h; sourceTree = "<group>"; };
+		B079F38A12FD7FD300EFF272 /* PlaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceViewController.m; sourceTree = "<group>"; };
+		B079F3B412FD831200EFF272 /* ShopperTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopperTableViewController.h; sourceTree = "<group>"; };
+		B079F3B512FD831200EFF272 /* ShopperTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopperTableViewController.m; sourceTree = "<group>"; };
+		B079F3B712FD833200EFF272 /* ShopperDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopperDelegate.h; sourceTree = "<group>"; };
+		B079F3CF12FD84C900EFF272 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		B079F3D012FD84C900EFF272 /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
+		B079F3D212FD84ED00EFF272 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B079F3D612FD861100EFF272 /* ManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagedObject.h; sourceTree = "<group>"; };
+		B079F3D712FD861100EFF272 /* ManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagedObject.m; sourceTree = "<group>"; };
+		B079F3F712FD86F000EFF272 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		B079F3F812FD86F000EFF272 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		B079F40012FD882A00EFF272 /* Coupon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coupon.h; sourceTree = "<group>"; };
+		B079F40112FD882A00EFF272 /* Coupon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coupon.m; sourceTree = "<group>"; };
+		B079F40612FD8A0D00EFF272 /* shopper.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = shopper.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				B079F3D312FD84ED00EFF272 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B010605012FE43290065BB09 /* Foursquare */,
+				B0105F2512FDFBA70065BB09 /* Utilities */,
+				B079F3CE12FD849500EFF272 /* Models */,
+				1D3623240D0F684500981E51 /* ShopperAppDelegate.h */,
+				1D3623250D0F684500981E51 /* ShopperAppDelegate.m */,
+				B079F3B712FD833200EFF272 /* ShopperDelegate.h */,
+				B079F38312FD7FA800EFF272 /* ListsViewController.h */,
+				B079F38412FD7FA800EFF272 /* ListsViewController.m */,
+				B079F38612FD7FC000EFF272 /* CouponViewController.h */,
+				B079F38712FD7FC000EFF272 /* CouponViewController.m */,
+				B079F38912FD7FD300EFF272 /* PlaceViewController.h */,
+				B079F38A12FD7FD300EFF272 /* PlaceViewController.m */,
+				B079F3B412FD831200EFF272 /* ShopperTableViewController.h */,
+				B079F3B512FD831200EFF272 /* ShopperTableViewController.m */,
+				B0105E3012FDACE90065BB09 /* ListViewController.h */,
+				B0105E3112FDACE90065BB09 /* ListViewController.m */,
+				B0105E4812FDB0470065BB09 /* AddItemViewController.h */,
+				B0105E4912FDB0470065BB09 /* AddItemViewController.m */,
+				B0105E5D12FDB5C10065BB09 /* AddListViewController.h */,
+				B0105E5E12FDB5C10065BB09 /* AddListViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Shopper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Shopper_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0105E9C12FDBC760065BB09 /* Views */,
+				B079F40512FD89B700EFF272 /* DataModels */,
+				2899E5210DE3E06400AC0155 /* ShopperViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Shopper-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				B079F3D212FD84ED00EFF272 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0105E9C12FDBC760065BB09 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0105E9D12FDBCA20065BB09 /* AddListView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B0105F2512FDFBA70065BB09 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B0105F2612FDFBD30065BB09 /* UUID.h */,
+				B0105F2712FDFBD30065BB09 /* UUID.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B010605012FE43290065BB09 /* Foursquare */ = {
+			isa = PBXGroup;
+			children = (
+				B010605112FE434E0065BB09 /* Foursquare.h */,
+				B010605212FE434E0065BB09 /* Foursquare.m */,
+				B010605412FE45A00065BB09 /* Venue.h */,
+				B010605512FE45A00065BB09 /* Venue.m */,
+			);
+			path = Foursquare;
+			sourceTree = "<group>";
+		};
+		B079F3CE12FD849500EFF272 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B079F3D612FD861100EFF272 /* ManagedObject.h */,
+				B079F3D712FD861100EFF272 /* ManagedObject.m */,
+				B079F3CF12FD84C900EFF272 /* List.h */,
+				B079F3D012FD84C900EFF272 /* List.m */,
+				B079F3F712FD86F000EFF272 /* Item.h */,
+				B079F3F812FD86F000EFF272 /* Item.m */,
+				B079F40012FD882A00EFF272 /* Coupon.h */,
+				B079F40112FD882A00EFF272 /* Coupon.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B079F40512FD89B700EFF272 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				B079F40612FD8A0D00EFF272 /* shopper.xcdatamodel */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Shopper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Shopper" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shopper;
+			productName = Shopper;
+			productReference = 1D6058910D05DD3D006BFB54 /* Shopper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Shopper" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Shopper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* ShopperViewController.xib in Resources */,
+				B0105E9E12FDBCA20065BB09 /* AddListView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* ShopperAppDelegate.m in Sources */,
+				B079F38512FD7FA800EFF272 /* ListsViewController.m in Sources */,
+				B079F38812FD7FC000EFF272 /* CouponViewController.m in Sources */,
+				B079F38B12FD7FD300EFF272 /* PlaceViewController.m in Sources */,
+				B079F3B612FD831200EFF272 /* ShopperTableViewController.m in Sources */,
+				B079F3D112FD84C900EFF272 /* List.m in Sources */,
+				B079F3D812FD861100EFF272 /* ManagedObject.m in Sources */,
+				B079F3F912FD86F000EFF272 /* Item.m in Sources */,
+				B079F40212FD882A00EFF272 /* Coupon.m in Sources */,
+				B079F40712FD8A0D00EFF272 /* shopper.xcdatamodel in Sources */,
+				B0105E3212FDACE90065BB09 /* ListViewController.m in Sources */,
+				B0105E4A12FDB0470065BB09 /* AddItemViewController.m in Sources */,
+				B0105E5F12FDB5C10065BB09 /* AddListViewController.m in Sources */,
+				B0105F2812FDFBD30065BB09 /* UUID.m in Sources */,
+				B010605312FE434E0065BB09 /* Foursquare.m in Sources */,
+				B010605612FE45A00065BB09 /* Venue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Shopper_Prefix.pch;
+				INFOPLIST_FILE = "Shopper-Info.plist";
+				PRODUCT_NAME = Shopper;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Shopper_Prefix.pch;
+				INFOPLIST_FILE = "Shopper-Info.plist";
+				PRODUCT_NAME = Shopper;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Shopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Shopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
