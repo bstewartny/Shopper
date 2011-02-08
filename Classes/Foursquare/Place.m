@@ -1,7 +1,6 @@
-#import "Venue.h"
+#import "Place.h"
 
-
-@implementation Venue
+@implementation Place
 @synthesize uid;
 @synthesize  name;
 @synthesize  address;
@@ -11,10 +10,10 @@
 @synthesize  postalCode;
 @synthesize  phone;
 @synthesize  lat;
-@synthesize   lng;
+@synthesize  lng;
 @synthesize  distance;
 @synthesize  category;
-
+@synthesize twitter;
 
 - (void) dealloc
 {
@@ -26,6 +25,7 @@
 	[state release];
 	[postalCode release];
 	[phone release];
+	[twitter release];
 	[category release];
 	[super dealloc];
 }

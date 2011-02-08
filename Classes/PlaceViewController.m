@@ -1,100 +1,37 @@
-//
-//  PlaceViewController.m
-//  Shopper
-//
-//  Created by Robert Stewart on 2/5/11.
-//  Copyright 2011 OmegaMuse, LLC. All rights reserved.
-//
-
 #import "PlaceViewController.h"
-
+#import "Place.h"
+#import "MapViewController.h"
 
 @implementation PlaceViewController
+@synthesize place;
 
-- (id) init
+- (id) initWithPlace:(Place*)thePlace
 {
-	self=[super initWithStyle:UITableViewStylePlain];
+	self=[super initWithStyle:UITableViewStyleGrouped];
 	if(self)
 	{
-		self.navigationItem.title=@"Places";
-		self.title=@"Places";
-		
-		self.tabBarItem=[[[UITabBarItem alloc] initWithTitle:@"Places" image:nil tag:3] autorelease];
+		self.place=thePlace;
+		self.navigationItem.rightBarButtonItem=[[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(add:)] autorelease];
+		self.navigationItem.title=@"Place";
+		self.title=@"Place";
 	}
 	return self;
 }
-#pragma mark -
-#pragma mark Initialization
-
-/*
-- (id)initWithStyle:(UITableViewStyle)style {
-    // Override initWithStyle: if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-    self = [super initWithStyle:style];
-    if (self) {
-        // Custom initialization.
-    }
-    return self;
-}
-*/
-
-
-#pragma mark -
-#pragma mark View lifecycle
-
-/*
-- (void)viewDidLoad {
-    [super viewDidLoad];
-
- }
-*/
-
-/*
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-}
-*/
-/*
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-}
-*/
-/*
-- (void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:animated];
-}
-*/
-/*
-- (void)viewDidDisappear:(BOOL)animated {
-    [super viewDidDisappear:animated];
-}
-*/
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations.
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
-
-
-#pragma mark -
-#pragma mark Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
+    return 5;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section 
+{
+    // Return the number of rows in the section.
     return 1;
 }
 
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    // Return the number of rows in the section.
-    return 0;
-}
-
-
 // Customize the appearance of table view cells.
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath 
+{    
     static NSString *CellIdentifier = @"Cell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
@@ -103,83 +40,83 @@
     }
     
     // Configure the cell...
-    
+    switch (indexPath.section) 
+	{
+		
+		case 0:
+			// name
+			cell.textLabel.text=place.name;
+			cell.accessoryType=UITableViewCellAccessoryNone;
+			break;
+		case 1:
+			// categories
+			cell.textLabel.text=place.category;
+			cell.accessoryType=UITableViewCellAccessoryNone;
+			break;
+		case 2:
+			// location
+			if([place.address length]>0)
+			{
+				cell.textLabel.text=place.address;
+			}
+			else 
+			{
+				cell.textLabel.text=@"Show on map";
+			}
+
+			cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
+			break;
+		case 3:
+			// coupons
+			cell.textLabel.text=@"Coupons";
+			cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
+			break;
+		case 4:
+			// items
+			cell.textLabel.text=@"Items";
+			cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
+			break;
+	}
+	
     return cell;
 }
-
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+	switch (section) 
+	{
+		case 0:
+			return @"Name";
+		case 1:
+			// categories
+			return @"Category";
+		case 2:
+			// location
+			return @"Location";
+		case 3:
+			// coupons
+			return @"Coupons";
+		case 4:
+			// items
+			return @"Items";
+			
+	}
 }
-*/
-
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source.
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-    }   
-}
-*/
-
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-
-#pragma mark -
-#pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-    [self.navigationController pushViewController:detailViewController animated:YES];
-    [detailViewController release];
-    */
-}
-
-
-#pragma mark -
-#pragma mark Memory management
-
-- (void)didReceiveMemoryWarning {
-    // Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
     
-    // Relinquish ownership any cached data, images, etc. that aren't in use.
-}
-
-- (void)viewDidUnload {
-    // Relinquish ownership of anything that can be recreated in viewDidLoad or on demand.
-    // For example: self.myOutlet = nil;
+	if(indexPath.section==2)
+	{
+		MapViewController * mapView=[[MapViewController alloc] initWithPlaces:[NSArray arrayWithObject:place] index:0];
+	
+		[self.navigationController pushViewController:mapView animated:YES];
+	
+		[mapView release];
+	}
 }
 
 
 - (void)dealloc {
+	[place release];
     [super dealloc];
 }
 

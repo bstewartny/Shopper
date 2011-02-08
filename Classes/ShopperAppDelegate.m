@@ -1,7 +1,7 @@
 #import "ShopperAppDelegate.h"
 #import "ListsViewController.h"
 #import "CouponViewController.h"
-#import "PlaceViewController.h"
+#import "PlacesViewController.h"
 #import "List.h"
 #import "UUID.h"
 
@@ -19,7 +19,7 @@
 @synthesize  tabBarController;
 @synthesize  listNavController;
 @synthesize  couponNavController;
-@synthesize  placeNavController;
+@synthesize  placesNavController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions 
 {        
@@ -29,23 +29,23 @@
 	
 	ListsViewController * listsViewController=[[ListsViewController alloc] init];
 	CouponViewController * couponViewController=[[CouponViewController alloc] init];
-	PlaceViewController * placeViewController=[[PlaceViewController alloc] init];
+	PlacesViewController * placesViewController=[[PlacesViewController alloc] init];
 	
 	listsViewController.delegate=self;
 	couponViewController.delegate=self;
-	placeViewController.delegate=self;
+	placesViewController.delegate=self;
 	
 	
 	
 	listNavController=[[UINavigationController alloc] initWithRootViewController:listsViewController];
 	couponNavController=[[UINavigationController alloc] initWithRootViewController:couponViewController];
-	placeNavController=[[UINavigationController alloc] initWithRootViewController:placeViewController];
+	placesNavController=[[UINavigationController alloc] initWithRootViewController:placesViewController];
 	
-	tabBarController.viewControllers=[NSArray arrayWithObjects:listNavController,couponNavController,placeNavController,nil];
+	tabBarController.viewControllers=[NSArray arrayWithObjects:listNavController,couponNavController,placesNavController,nil];
 	
 	[listsViewController release];
 	[couponViewController release];
-	[placeViewController release];
+	[placesViewController release];
 		
     // Add the view controller's view to the window and display.
     [self.window addSubview:tabBarController.view];
@@ -320,7 +320,7 @@
 	[tabBarController release];
 	[listNavController release];
 	[couponNavController release];
-	[placeNavController release];
+	[placesNavController release];
     [window release];
     [super dealloc];
 }

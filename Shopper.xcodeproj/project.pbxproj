@@ -20,10 +20,33 @@
 		B0105E9E12FDBCA20065BB09 /* AddListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0105E9D12FDBCA20065BB09 /* AddListView.xib */; };
 		B0105F2812FDFBD30065BB09 /* UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = B0105F2712FDFBD30065BB09 /* UUID.m */; };
 		B010605312FE434E0065BB09 /* Foursquare.m in Sources */ = {isa = PBXBuildFile; fileRef = B010605212FE434E0065BB09 /* Foursquare.m */; };
-		B010605612FE45A00065BB09 /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = B010605512FE45A00065BB09 /* Venue.m */; };
+		B010605612FE45A00065BB09 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = B010605512FE45A00065BB09 /* Place.m */; };
+		B01A40B1130198EB00A096B1 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A409E130198EB00A096B1 /* ASIAuthenticationDialog.m */; };
+		B01A40B2130198EB00A096B1 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A40A1130198EB00A096B1 /* ASIDataCompressor.m */; };
+		B01A40B3130198EB00A096B1 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A40A3130198EB00A096B1 /* ASIDataDecompressor.m */; };
+		B01A40B4130198EB00A096B1 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A40A5130198EB00A096B1 /* ASIDownloadCache.m */; };
+		B01A40B5130198EB00A096B1 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A40A7130198EB00A096B1 /* ASIFormDataRequest.m */; };
+		B01A40B6130198EB00A096B1 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A40A9130198EB00A096B1 /* ASIHTTPRequest.m */; };
+		B01A40B7130198EB00A096B1 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A40AD130198EB00A096B1 /* ASIInputStream.m */; };
+		B01A40B8130198EB00A096B1 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A40AF130198EB00A096B1 /* ASINetworkQueue.m */; };
+		B01A40C31301993900A096B1 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A40C21301993900A096B1 /* Reachability.m */; };
+		B01A40C91301997000A096B1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01A40C81301997000A096B1 /* CFNetwork.framework */; };
+		B01A4106130199C500A096B1 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B01A4105130199C500A096B1 /* libz.1.2.3.dylib */; };
+		B01A412813019A6800A096B1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01A412713019A6800A096B1 /* SystemConfiguration.framework */; };
+		B01A412C13019ABA00A096B1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01A412B13019ABA00A096B1 /* MobileCoreServices.framework */; };
+		B01A41611301A00800A096B1 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A41561301A00800A096B1 /* NSObject+SBJSON.m */; };
+		B01A41621301A00800A096B1 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A41581301A00800A096B1 /* NSString+SBJSON.m */; };
+		B01A41631301A00800A096B1 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A415A1301A00800A096B1 /* SBJSON.m */; };
+		B01A41641301A00800A096B1 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A415C1301A00800A096B1 /* SBJsonBase.m */; };
+		B01A41651301A00800A096B1 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A415E1301A00800A096B1 /* SBJsonParser.m */; };
+		B01A41661301A00800A096B1 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A41601301A00800A096B1 /* SBJsonWriter.m */; };
+		B01A41711301A0AD00A096B1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01A41701301A0AD00A096B1 /* CoreLocation.framework */; };
+		B01A41E71301BAB400A096B1 /* PlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A41E61301BAB400A096B1 /* PlaceViewController.m */; };
+		B01A421A1301C1BB00A096B1 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A42191301C1BB00A096B1 /* MapViewController.m */; };
+		B01A421E1301C2D900A096B1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01A421D1301C2D900A096B1 /* MapKit.framework */; };
 		B079F38512FD7FA800EFF272 /* ListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B079F38412FD7FA800EFF272 /* ListsViewController.m */; };
 		B079F38812FD7FC000EFF272 /* CouponViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B079F38712FD7FC000EFF272 /* CouponViewController.m */; };
-		B079F38B12FD7FD300EFF272 /* PlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B079F38A12FD7FD300EFF272 /* PlaceViewController.m */; };
+		B079F38B12FD7FD300EFF272 /* PlacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B079F38A12FD7FD300EFF272 /* PlacesViewController.m */; };
 		B079F3B612FD831200EFF272 /* ShopperTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B079F3B512FD831200EFF272 /* ShopperTableViewController.m */; };
 		B079F3D112FD84C900EFF272 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = B079F3D012FD84C900EFF272 /* List.m */; };
 		B079F3D312FD84ED00EFF272 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B079F3D212FD84ED00EFF272 /* CoreData.framework */; };
@@ -56,14 +79,59 @@
 		B0105F2712FDFBD30065BB09 /* UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUID.m; sourceTree = "<group>"; };
 		B010605112FE434E0065BB09 /* Foursquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foursquare.h; sourceTree = "<group>"; };
 		B010605212FE434E0065BB09 /* Foursquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foursquare.m; sourceTree = "<group>"; };
-		B010605412FE45A00065BB09 /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
-		B010605512FE45A00065BB09 /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
+		B010605412FE45A00065BB09 /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Place.h; path = ../Foursquare/Place.h; sourceTree = "<group>"; };
+		B010605512FE45A00065BB09 /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Place.m; path = ../Foursquare/Place.m; sourceTree = "<group>"; };
+		B01A409D130198EB00A096B1 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		B01A409E130198EB00A096B1 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		B01A409F130198EB00A096B1 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		B01A40A0130198EB00A096B1 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		B01A40A1130198EB00A096B1 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		B01A40A2130198EB00A096B1 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		B01A40A3130198EB00A096B1 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		B01A40A4130198EB00A096B1 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		B01A40A5130198EB00A096B1 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		B01A40A6130198EB00A096B1 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		B01A40A7130198EB00A096B1 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		B01A40A8130198EB00A096B1 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		B01A40A9130198EB00A096B1 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		B01A40AA130198EB00A096B1 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		B01A40AB130198EB00A096B1 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		B01A40AC130198EB00A096B1 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		B01A40AD130198EB00A096B1 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		B01A40AE130198EB00A096B1 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		B01A40AF130198EB00A096B1 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		B01A40B0130198EB00A096B1 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		B01A40C11301993900A096B1 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		B01A40C21301993900A096B1 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		B01A40C81301997000A096B1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B01A4105130199C500A096B1 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		B01A412713019A6800A096B1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B01A412B13019ABA00A096B1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B01A41541301A00800A096B1 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		B01A41551301A00800A096B1 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		B01A41561301A00800A096B1 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		B01A41571301A00800A096B1 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		B01A41581301A00800A096B1 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		B01A41591301A00800A096B1 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		B01A415A1301A00800A096B1 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		B01A415B1301A00800A096B1 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		B01A415C1301A00800A096B1 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		B01A415D1301A00800A096B1 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		B01A415E1301A00800A096B1 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		B01A415F1301A00800A096B1 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		B01A41601301A00800A096B1 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		B01A41701301A0AD00A096B1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B01A41E51301BAB400A096B1 /* PlaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceViewController.h; sourceTree = "<group>"; };
+		B01A41E61301BAB400A096B1 /* PlaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceViewController.m; sourceTree = "<group>"; };
+		B01A42181301C1BB00A096B1 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		B01A42191301C1BB00A096B1 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		B01A421D1301C2D900A096B1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		B079F38312FD7FA800EFF272 /* ListsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListsViewController.h; sourceTree = "<group>"; };
 		B079F38412FD7FA800EFF272 /* ListsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListsViewController.m; sourceTree = "<group>"; };
 		B079F38612FD7FC000EFF272 /* CouponViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponViewController.h; sourceTree = "<group>"; };
 		B079F38712FD7FC000EFF272 /* CouponViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponViewController.m; sourceTree = "<group>"; };
-		B079F38912FD7FD300EFF272 /* PlaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceViewController.h; sourceTree = "<group>"; };
-		B079F38A12FD7FD300EFF272 /* PlaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceViewController.m; sourceTree = "<group>"; };
+		B079F38912FD7FD300EFF272 /* PlacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesViewController.h; sourceTree = "<group>"; };
+		B079F38A12FD7FD300EFF272 /* PlacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesViewController.m; sourceTree = "<group>"; };
 		B079F3B412FD831200EFF272 /* ShopperTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopperTableViewController.h; sourceTree = "<group>"; };
 		B079F3B512FD831200EFF272 /* ShopperTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopperTableViewController.m; sourceTree = "<group>"; };
 		B079F3B712FD833200EFF272 /* ShopperDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopperDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +156,12 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
 				B079F3D312FD84ED00EFF272 /* CoreData.framework in Frameworks */,
+				B01A40C91301997000A096B1 /* CFNetwork.framework in Frameworks */,
+				B01A4106130199C500A096B1 /* libz.1.2.3.dylib in Frameworks */,
+				B01A412813019A6800A096B1 /* SystemConfiguration.framework in Frameworks */,
+				B01A412C13019ABA00A096B1 /* MobileCoreServices.framework in Frameworks */,
+				B01A41711301A0AD00A096B1 /* CoreLocation.framework in Frameworks */,
+				B01A421E1301C2D900A096B1 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +171,9 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B01A413713019FDE00A096B1 /* JSON */,
+				B01A40BD1301991200A096B1 /* Reachability */,
+				B01A4095130198B700A096B1 /* ASIHttpRequest */,
 				B010605012FE43290065BB09 /* Foursquare */,
 				B0105F2512FDFBA70065BB09 /* Utilities */,
 				B079F3CE12FD849500EFF272 /* Models */,
@@ -107,8 +184,8 @@
 				B079F38412FD7FA800EFF272 /* ListsViewController.m */,
 				B079F38612FD7FC000EFF272 /* CouponViewController.h */,
 				B079F38712FD7FC000EFF272 /* CouponViewController.m */,
-				B079F38912FD7FD300EFF272 /* PlaceViewController.h */,
-				B079F38A12FD7FD300EFF272 /* PlaceViewController.m */,
+				B079F38912FD7FD300EFF272 /* PlacesViewController.h */,
+				B079F38A12FD7FD300EFF272 /* PlacesViewController.m */,
 				B079F3B412FD831200EFF272 /* ShopperTableViewController.h */,
 				B079F3B512FD831200EFF272 /* ShopperTableViewController.m */,
 				B0105E3012FDACE90065BB09 /* ListViewController.h */,
@@ -117,6 +194,10 @@
 				B0105E4912FDB0470065BB09 /* AddItemViewController.m */,
 				B0105E5D12FDB5C10065BB09 /* AddListViewController.h */,
 				B0105E5E12FDB5C10065BB09 /* AddListViewController.m */,
+				B01A41E51301BAB400A096B1 /* PlaceViewController.h */,
+				B01A41E61301BAB400A096B1 /* PlaceViewController.m */,
+				B01A42181301C1BB00A096B1 /* MapViewController.h */,
+				B01A42191301C1BB00A096B1 /* MapViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -169,6 +250,12 @@
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
 				B079F3D212FD84ED00EFF272 /* CoreData.framework */,
+				B01A40C81301997000A096B1 /* CFNetwork.framework */,
+				B01A4105130199C500A096B1 /* libz.1.2.3.dylib */,
+				B01A412713019A6800A096B1 /* SystemConfiguration.framework */,
+				B01A412B13019ABA00A096B1 /* MobileCoreServices.framework */,
+				B01A41701301A0AD00A096B1 /* CoreLocation.framework */,
+				B01A421D1301C2D900A096B1 /* MapKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -195,15 +282,71 @@
 			children = (
 				B010605112FE434E0065BB09 /* Foursquare.h */,
 				B010605212FE434E0065BB09 /* Foursquare.m */,
-				B010605412FE45A00065BB09 /* Venue.h */,
-				B010605512FE45A00065BB09 /* Venue.m */,
 			);
 			path = Foursquare;
+			sourceTree = "<group>";
+		};
+		B01A4095130198B700A096B1 /* ASIHttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				B01A409D130198EB00A096B1 /* ASIAuthenticationDialog.h */,
+				B01A409E130198EB00A096B1 /* ASIAuthenticationDialog.m */,
+				B01A409F130198EB00A096B1 /* ASICacheDelegate.h */,
+				B01A40A0130198EB00A096B1 /* ASIDataCompressor.h */,
+				B01A40A1130198EB00A096B1 /* ASIDataCompressor.m */,
+				B01A40A2130198EB00A096B1 /* ASIDataDecompressor.h */,
+				B01A40A3130198EB00A096B1 /* ASIDataDecompressor.m */,
+				B01A40A4130198EB00A096B1 /* ASIDownloadCache.h */,
+				B01A40A5130198EB00A096B1 /* ASIDownloadCache.m */,
+				B01A40A6130198EB00A096B1 /* ASIFormDataRequest.h */,
+				B01A40A7130198EB00A096B1 /* ASIFormDataRequest.m */,
+				B01A40A8130198EB00A096B1 /* ASIHTTPRequest.h */,
+				B01A40A9130198EB00A096B1 /* ASIHTTPRequest.m */,
+				B01A40AA130198EB00A096B1 /* ASIHTTPRequestConfig.h */,
+				B01A40AB130198EB00A096B1 /* ASIHTTPRequestDelegate.h */,
+				B01A40AC130198EB00A096B1 /* ASIInputStream.h */,
+				B01A40AD130198EB00A096B1 /* ASIInputStream.m */,
+				B01A40AE130198EB00A096B1 /* ASINetworkQueue.h */,
+				B01A40AF130198EB00A096B1 /* ASINetworkQueue.m */,
+				B01A40B0130198EB00A096B1 /* ASIProgressDelegate.h */,
+			);
+			path = ASIHttpRequest;
+			sourceTree = "<group>";
+		};
+		B01A40BD1301991200A096B1 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				B01A40C11301993900A096B1 /* Reachability.h */,
+				B01A40C21301993900A096B1 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		B01A413713019FDE00A096B1 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				B01A41541301A00800A096B1 /* JSON.h */,
+				B01A41551301A00800A096B1 /* NSObject+SBJSON.h */,
+				B01A41561301A00800A096B1 /* NSObject+SBJSON.m */,
+				B01A41571301A00800A096B1 /* NSString+SBJSON.h */,
+				B01A41581301A00800A096B1 /* NSString+SBJSON.m */,
+				B01A41591301A00800A096B1 /* SBJSON.h */,
+				B01A415A1301A00800A096B1 /* SBJSON.m */,
+				B01A415B1301A00800A096B1 /* SBJsonBase.h */,
+				B01A415C1301A00800A096B1 /* SBJsonBase.m */,
+				B01A415D1301A00800A096B1 /* SBJsonParser.h */,
+				B01A415E1301A00800A096B1 /* SBJsonParser.m */,
+				B01A415F1301A00800A096B1 /* SBJsonWriter.h */,
+				B01A41601301A00800A096B1 /* SBJsonWriter.m */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 		B079F3CE12FD849500EFF272 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B010605412FE45A00065BB09 /* Place.h */,
+				B010605512FE45A00065BB09 /* Place.m */,
 				B079F3D612FD861100EFF272 /* ManagedObject.h */,
 				B079F3D712FD861100EFF272 /* ManagedObject.m */,
 				B079F3CF12FD84C900EFF272 /* List.h */,
@@ -290,7 +433,7 @@
 				1D3623260D0F684500981E51 /* ShopperAppDelegate.m in Sources */,
 				B079F38512FD7FA800EFF272 /* ListsViewController.m in Sources */,
 				B079F38812FD7FC000EFF272 /* CouponViewController.m in Sources */,
-				B079F38B12FD7FD300EFF272 /* PlaceViewController.m in Sources */,
+				B079F38B12FD7FD300EFF272 /* PlacesViewController.m in Sources */,
 				B079F3B612FD831200EFF272 /* ShopperTableViewController.m in Sources */,
 				B079F3D112FD84C900EFF272 /* List.m in Sources */,
 				B079F3D812FD861100EFF272 /* ManagedObject.m in Sources */,
@@ -302,7 +445,24 @@
 				B0105E5F12FDB5C10065BB09 /* AddListViewController.m in Sources */,
 				B0105F2812FDFBD30065BB09 /* UUID.m in Sources */,
 				B010605312FE434E0065BB09 /* Foursquare.m in Sources */,
-				B010605612FE45A00065BB09 /* Venue.m in Sources */,
+				B010605612FE45A00065BB09 /* Place.m in Sources */,
+				B01A40B1130198EB00A096B1 /* ASIAuthenticationDialog.m in Sources */,
+				B01A40B2130198EB00A096B1 /* ASIDataCompressor.m in Sources */,
+				B01A40B3130198EB00A096B1 /* ASIDataDecompressor.m in Sources */,
+				B01A40B4130198EB00A096B1 /* ASIDownloadCache.m in Sources */,
+				B01A40B5130198EB00A096B1 /* ASIFormDataRequest.m in Sources */,
+				B01A40B6130198EB00A096B1 /* ASIHTTPRequest.m in Sources */,
+				B01A40B7130198EB00A096B1 /* ASIInputStream.m in Sources */,
+				B01A40B8130198EB00A096B1 /* ASINetworkQueue.m in Sources */,
+				B01A40C31301993900A096B1 /* Reachability.m in Sources */,
+				B01A41611301A00800A096B1 /* NSObject+SBJSON.m in Sources */,
+				B01A41621301A00800A096B1 /* NSString+SBJSON.m in Sources */,
+				B01A41631301A00800A096B1 /* SBJSON.m in Sources */,
+				B01A41641301A00800A096B1 /* SBJsonBase.m in Sources */,
+				B01A41651301A00800A096B1 /* SBJsonParser.m in Sources */,
+				B01A41661301A00800A096B1 /* SBJsonWriter.m in Sources */,
+				B01A41E71301BAB400A096B1 /* PlaceViewController.m in Sources */,
+				B01A421A1301C1BB00A096B1 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

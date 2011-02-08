@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-@interface Venue : NSObject 
+@interface Place : NSObject 
 {
 	NSString * uid;
 	NSString * name;
@@ -10,6 +10,7 @@
 	NSString * state;
 	NSString * postalCode;
 	NSString * phone;
+	NSString * twitter;
 	
 	CGFloat lat;
 	CGFloat lng;
@@ -26,6 +27,8 @@
 @property(nonatomic,retain) NSString * state;
 @property(nonatomic,retain) NSString * postalCode;
 @property(nonatomic,retain) NSString * phone;
+@property(nonatomic,retain) NSString * twitter;
+
 
 @property(nonatomic) CGFloat lat;
 @property(nonatomic) CGFloat lng;

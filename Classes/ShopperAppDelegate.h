@@ -8,7 +8,7 @@
     UITabBarController *tabBarController;
 	UINavigationController * listNavController;
 	UINavigationController * couponNavController;
-	UINavigationController * placeNavController;
+	UINavigationController * placesNavController;
 	
 	NSManagedObjectModel *managedObjectModel;
     NSManagedObjectContext *managedObjectContext;	    
@@ -18,7 +18,7 @@
 @property (nonatomic, retain) UITabBarController *tabBarController;
 @property (nonatomic, retain) UINavigationController * listNavController;
 @property (nonatomic, retain) UINavigationController * couponNavController;
-@property (nonatomic, retain) UINavigationController * placeNavController;
+@property (nonatomic, retain) UINavigationController * placesNavController;
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
 - (NSManagedObjectContext *) createNewManagedObjectContext:(id)mergePolicy;

@@ -1,8 +1,12 @@
 #import <UIKit/UIKit.h>
-#import "ShopperTableViewController.h"
 
-@interface PlaceViewController : ShopperTableViewController {
+@class Place;
+@interface PlaceViewController : UITableViewController 
+{
+	Place * place;
 
 }
+@property(nonatomic,retain) Place * place;
+- (id) initWithPlace:(Place*)place;
 
 @end
