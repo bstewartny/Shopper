@@ -1,9 +1,8 @@
 #import "Foursquare.h"
-//#import "Venue.h"
 #import "ASIHTTPRequest.h"
 #import "JSON.h"
-@implementation Foursquare
 
+@implementation Foursquare
 
 - (NSString*) escapeQueryValue:(NSString*)value
 {

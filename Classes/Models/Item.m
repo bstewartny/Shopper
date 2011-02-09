@@ -5,6 +5,7 @@
 @dynamic name;
 @dynamic order;
 @dynamic list;
+@dynamic notes;
 
 - (NSComparisonResult)compareItem:(Item*)i
 {

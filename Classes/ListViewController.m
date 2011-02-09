@@ -2,6 +2,8 @@
 #import "List.h"
 #import "Item.h"
 #import "AddItemViewController.h"
+#import "ItemViewController.h"
+
 @implementation ListViewController
 @synthesize list,items;
 
@@ -17,6 +19,13 @@
 		self.title=list.name;
 	}
 	return self;
+}
+- (void) viewDidAppear:(BOOL)animated
+{
+	[super viewDidAppear:animated];
+	[items release];
+	items=[[list orderedItems] retain];
+	[self.tableView reloadData];
 }
 
 - (void) addItemsWithNames:(NSArray*)names
@@ -69,6 +78,7 @@
     // Configure the cell...
 	
 	cell.textLabel.text=item.name;
+	cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
 }
@@ -116,6 +126,12 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath 
 {
 	Item * item = [items objectAtIndex:indexPath.row];
+	
+	ItemViewController * itemView=[[ItemViewController alloc] initWithItem:item];
+	
+	[self.navigationController pushViewController:itemView animated:YES];
+	
+	[itemView release];
 	
 }
 

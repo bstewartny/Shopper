@@ -54,6 +54,7 @@
 		B079F3F912FD86F000EFF272 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = B079F3F812FD86F000EFF272 /* Item.m */; };
 		B079F40212FD882A00EFF272 /* Coupon.m in Sources */ = {isa = PBXBuildFile; fileRef = B079F40112FD882A00EFF272 /* Coupon.m */; };
 		B079F40712FD8A0D00EFF272 /* shopper.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = B079F40612FD8A0D00EFF272 /* shopper.xcdatamodel */; };
+		B0D696CC1302340200EF21D1 /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D696CB1302340200EF21D1 /* ItemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -145,6 +146,8 @@
 		B079F40012FD882A00EFF272 /* Coupon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coupon.h; sourceTree = "<group>"; };
 		B079F40112FD882A00EFF272 /* Coupon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coupon.m; sourceTree = "<group>"; };
 		B079F40612FD8A0D00EFF272 /* shopper.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = shopper.xcdatamodel; sourceTree = "<group>"; };
+		B0D696CA1302340200EF21D1 /* ItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemViewController.h; sourceTree = "<group>"; };
+		B0D696CB1302340200EF21D1 /* ItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +201,8 @@
 				B01A41E61301BAB400A096B1 /* PlaceViewController.m */,
 				B01A42181301C1BB00A096B1 /* MapViewController.h */,
 				B01A42191301C1BB00A096B1 /* MapViewController.m */,
+				B0D696CA1302340200EF21D1 /* ItemViewController.h */,
+				B0D696CB1302340200EF21D1 /* ItemViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -463,6 +468,7 @@
 				B01A41661301A00800A096B1 /* SBJsonWriter.m in Sources */,
 				B01A41E71301BAB400A096B1 /* PlaceViewController.m in Sources */,
 				B01A421A1301C1BB00A096B1 /* MapViewController.m in Sources */,
+				B0D696CC1302340200EF21D1 /* ItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

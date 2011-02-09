@@ -20,7 +20,7 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
-    return 5;
+    return 4;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section 
@@ -48,12 +48,12 @@
 			cell.textLabel.text=place.name;
 			cell.accessoryType=UITableViewCellAccessoryNone;
 			break;
+		//case 1:
+		//	// categories
+		//	cell.textLabel.text=place.category;
+		//	cell.accessoryType=UITableViewCellAccessoryNone;
+		//	break;
 		case 1:
-			// categories
-			cell.textLabel.text=place.category;
-			cell.accessoryType=UITableViewCellAccessoryNone;
-			break;
-		case 2:
 			// location
 			if([place.address length]>0)
 			{
@@ -66,12 +66,12 @@
 
 			cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
 			break;
-		case 3:
+		case 2:
 			// coupons
 			cell.textLabel.text=@"Coupons";
 			cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
 			break;
-		case 4:
+		case 3:
 			// items
 			cell.textLabel.text=@"Items";
 			cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
@@ -86,16 +86,16 @@
 	{
 		case 0:
 			return @"Name";
+		//case 1:
+		//	// categories
+		//	return @"Category";
 		case 1:
-			// categories
-			return @"Category";
-		case 2:
 			// location
 			return @"Location";
-		case 3:
+		case 2:
 			// coupons
 			return @"Coupons";
-		case 4:
+		case 3:
 			// items
 			return @"Items";
 			
@@ -104,7 +104,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-	if(indexPath.section==2)
+	if(indexPath.section==1)
 	{
 		MapViewController * mapView=[[MapViewController alloc] initWithPlaces:[NSArray arrayWithObject:place] index:0];
 	
