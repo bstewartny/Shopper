@@ -14,6 +14,7 @@
 @synthesize  distance;
 @synthesize  category;
 @synthesize twitter;
+@synthesize shop;
 
 - (void) dealloc
 {

@@ -27,7 +27,7 @@
 	locationManager = [[CLLocationManager alloc] init];
 	locationManager.delegate = self;
 	locationManager.distanceFilter = kCLDistanceFilterNone; // whenever we move
-	locationManager.desiredAccuracy = kCLLocationAccuracyKilometer; // 100 m
+	locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters; // 100 m
 	
 	spinner=[[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
 	spinner.hidesWhenStopped=YES;
@@ -81,6 +81,7 @@
 	NSDictionary * response=[json objectForKey:@"response"];
 	
 	NSMutableArray * tmp=[[NSMutableArray alloc] init];
+	NSMutableArray * shops=[[NSMutableArray alloc] init];
 	
 	NSArray * groups=[response objectForKey:@"groups"];
 	
@@ -99,6 +100,43 @@
 				NSDictionary * category=[categories objectAtIndex:0];
 				
 				place.category=[category objectForKey:@"name"];
+			 	
+			}
+			
+			for(NSDictionary * category in categories)
+			{
+				NSString * category_name=[category objectForKey:@"name"];
+				
+				if ([category_name isEqualToString:@"Post Office"] ||
+					[category_name isEqualToString:@"Drugstore & Pharmacy"])
+				{
+					place.shop=YES;
+					break;
+				}
+				
+				NSArray * parents=[category objectForKey:@"parents"];
+				
+				for(NSString * parent in parents)
+				{
+					if([parent isEqualToString:@"Shops"] ||
+					   [parent isEqualToString:@"Food"] ||
+					   [parent isEqualToString:@"Food & Drink"] ||
+					   [parent isEqualToString:@"Nightlife"] )
+					{
+						place.shop=YES;
+						break;
+					}
+				}
+				
+				if(place.shop)
+				{
+					break;
+				}
+			}
+			
+			if(place.shop)
+			{
+				[shops addObject:place];
 			}
 			
 			place.uid=[item objectForKey:@"id"];
@@ -128,15 +166,26 @@
 		}
 	}
 	
-	[places release];
-	places=[tmp retain];
+	NSLog(@"Found %d total places and %d shops",[tmp count],[shops count]);
 	
+	if ([shops count]>0) 
+	{
+		[places release];
+		places=[shops retain];
+	}
+	else
+	{
+		[places release];
+		places=[tmp retain];
+	}
+	
+	[shops release];
 	[tmp release];
 	
 	// hide spinner, etc.
 	[spinner stopAnimating];
 	spinner.hidden=YES;
-	//[spinner removeFromSuperview];
+	
 	[self.tableView reloadData];
 }
 
@@ -144,7 +193,7 @@
 {
 	[spinner stopAnimating];
 	spinner.hidden=YES;
-	//[spinner removeFromSuperview];
+	
 	NSLog(@"venue search failed: %@",[error userInfo]);
 }
 
@@ -191,9 +240,8 @@
     return cell;
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here. Create and push another view controller.
-   
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath 
+{    
 	Place * place=[places objectAtIndex:indexPath.row];
 	
 	PlaceViewController * placeView=[[PlaceViewController alloc] initWithPlace:place];
@@ -203,7 +251,8 @@
 	[placeView release];
 }
 
-- (void)dealloc {
+- (void)dealloc 
+{
 	[spinner release];
 	[locationManager release];
 	[foursquare release];

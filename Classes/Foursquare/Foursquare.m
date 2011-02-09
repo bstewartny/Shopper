@@ -23,7 +23,7 @@
 	
 	//https://api.foursquare.com/v2/venues/search?ll=40.7,-74&oauth_token=1VYTD24FBIWVEHXWJPQE1PX4XYAVB3NEI2O05KOWUQXEJIKB
 
-	NSString * url=[NSString stringWithFormat:@"https://api.foursquare.com/v2/venues/search?ll=%f,%f&client_id=%@&client_secret=%@",lat,lng,kFoursquareClientID,kFoursquareSecret];
+	NSString * url=[NSString stringWithFormat:@"https://api.foursquare.com/v2/venues/search?llAcc=100.0&ll=%f,%f&limit=500&client_id=%@&client_secret=%@",lat,lng,kFoursquareClientID,kFoursquareSecret];
 
 	[request cancel];
 	[request release];

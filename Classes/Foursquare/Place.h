@@ -11,11 +11,10 @@
 	NSString * postalCode;
 	NSString * phone;
 	NSString * twitter;
-	
+	BOOL shop;
 	CGFloat lat;
 	CGFloat lng;
 	CGFloat distance;
-
 	NSString * category;
 }
 
@@ -28,7 +27,7 @@
 @property(nonatomic,retain) NSString * postalCode;
 @property(nonatomic,retain) NSString * phone;
 @property(nonatomic,retain) NSString * twitter;
-
+@property(nonatomic) BOOL shop;
 
 @property(nonatomic) CGFloat lat;
 @property(nonatomic) CGFloat lng;
