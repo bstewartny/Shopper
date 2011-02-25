@@ -1,0 +1,309 @@
+produce,fruit,apples
+produce,fruit,bananas
+produce,fruit,blueberries
+produce,fruit,rasberries
+produce,fruit,strawberries
+produce,fruit,grapes (green)
+produce,fruit,grapes (red)
+produce,fruit,lemons
+produce,fruit,limes
+produce,fruit,limes
+produce,fruit,Melons
+produce,fruit,Nectarines
+produce,fruit,Oranges
+produce,fruit,Peaches
+produce,fruit,Pears
+produce,fruit,Plums
+produce,fruit,Strawberries
+produce,fruit,Watermelon
+produce,fruit,Avocados
+produce,fruit,Cherries
+produce,fruit,Grapefruit
+produce,fruit,Kiwis
+produce,Vegetables,Asparagus
+produce,Vegetables,Broccoli
+produce,Vegetables,Cabbage
+produce,Vegetables,Carrots
+produce,Vegetables,Cauliflower
+produce,Vegetables,Celery 
+produce,Vegetables,Corn
+produce,Vegetables,Garlic 
+produce,Vegetables,Lettuce
+produce,Vegetables,Mushrooms
+produce,Vegetables,Onions
+produce,Vegetables,Peppers
+produce,Vegetables,Potato
+produce,Vegetables,Squash
+produce,Vegetables,Sweet Potato
+produce,Vegetables,Tomatoes
+produce,Vegetables,Zucchini
+produce,canned fruit,Cherries
+produce,canned fruit,Mixed Fruit
+produce,canned fruit,Peaches
+produce,canned fruit,Pears
+produce,canned fruit,Pineapples
+produce,canned vegetables,Asparagus
+produce,canned vegetables,Carrots
+produce,canned vegetables,Corn
+produce,canned vegetables,Greenbeans
+produce,canned vegetables,Peas
+produce,canned vegetables,Potatoes
+produce,canned vegetables,Tomatoes
+produce,Beans,Baked Beans
+produce,Beans,Butter Beans
+produce,Beans,Green Beans
+produce,Beans,Kidney Beans
+produce,Beans,Pinto Beans
+produce,Beans,PorkNBeans
+produce,Beans,String Beans
+Frozen,Broccoli
+Frozen,Carrots
+Frozen,Corn
+Frozen,Dinners
+Frozen,French Fries
+Frozen,Ice Cream
+Frozen,Mixed Veg.
+Frozen,Peas
+Frozen,Pizza
+Frozen,Tater Tots
+Frozen,Bagels
+Frozen,English muffins 
+Frozen,Orange juice 
+Frozen,Fruit juice
+Frozen,Ready-bake breads 
+Frozen,Tofu 
+Frozen,Tortillas
+Frozen,Breakfasts 
+Frozen,Burritos 
+Frozen,Fish sticks 
+Frozen,Fries / Tater tots
+Frozen,Ice cream 
+Frozen,Juice concentrate 
+Frozen,Pizzas
+Frozen,Popsicles 
+Frozen,Sorbet 
+Frozen,TV dinners
+Frozen,Vegetables
+Frozen,Veggie burgers
+
+meat,beef,Ground
+meat,beef,Hamburger
+meat,beef,Roast
+meat,beef,Steaks
+meat,Chicken,Boneless Breast
+meat,Chicken,Breast with Bone
+meat,Chicken,Legs
+meat,Chicken,Whole Chicken
+meat,Chicken,Wings
+meat,Deli Meat,Ham
+meat,Deli Meat,Roast Beef
+meat,Deli Meat,Smoked Turkey
+meat,Deli Meat,Turkey
+meat,Pork,Bacon
+meat,Pork,Chops
+meat,Pork,Ham
+meat,Pork,Roast
+meat,Pork,Sausage
+meat,Seafood,Crabmeat
+meat,Seafood,Fish
+meat,Seafood,Scallops
+meat,Seafood,Shrimp
+meat,Canned Meats,Chicken
+meat,Canned Meats,Corned Beef
+meat,Canned Meats,Ham
+meat,Canned Meats,Salmon
+meat,Canned Meats,Tuna
+meat,Canned Meats,Vienna Sausage
+Seasonings,Celery Salt
+Seasonings,Cinnamon
+Seasonings,Garlic Powder
+Seasonings,Garlic Salt
+Seasonings,Ginger
+Seasonings,Nutmeg
+Seasonings,Onion Powder
+Seasonings,Oregano
+Seasonings,Paprika
+Seasonings,Parsley
+Seasonings,Pepper
+Seasonings,Salt
+Condiments,BBQ Sauce
+Condiments,Honey
+Condiments,Horseradish
+Condiments,Jelly
+Condiments,Ketchup
+Condiments,Mayonnaise
+Condiments,Mustard
+Condiments,Peanut Butter
+Condiments,Salsa
+Condiments,Soy Sauce
+Condiments,Syrup
+Condiments,Worcestershire
+Miscellaneous,Batteries
+Miscellaneous,Light Bulbs
+oils,Cooking Spray
+oils,Olive Oil
+oils,Vegetable Oil
+oils,Peanut Oil
+Dressings,Blue Cheese
+Dressings,French
+Dressings,Italian
+Dressings,Ranch
+Dressings,Thousand Island
+Snacks,Candy
+Snacks,Cookies
+Snacks,Crackers
+Snacks,Nuts
+Snacks,Popcorn
+Snacks,Potato Chips
+Snacks,Pretzels
+Snacks,Raisins
+Soups,Chicken and Rice
+Soups,Chicken Noodle
+Soups,Cream of Broccoli
+Soups,Cream of Celery
+Soups,Cream of Chicken
+Soups,Cream of Mushroom
+Soups,Tomato
+Soups,Vegetable
+Soups,Vegetable Beef
+Soups,Vegetable Chicken
+Breads,Biscuits
+Breads,Buns
+Breads,Hamburger
+Breads,Hot Dog
+Breads,French
+Breads,Italian
+Breads,Rolls
+Breads,Wheat
+Breads,White
+Beverages,Coffee
+Beverages,Juice
+Beverages,Milk
+Beverages,Orange Juice
+Beverages,Soft Drinks
+Beverages,Sports Drinks
+Beverages,Tea
+Beverages,Water
+Dairy,Butter
+Dairy,Cheese
+Dairy,Cottage Cheese
+Dairy,Cream Cheese
+Dairy,Creamer
+Dairy,Eggs
+Dairy,Margarine
+Dairy,Milk
+Dairy,Sliced Cheese
+Dairy,Sour Cream
+Dairy,Yogurt
+Cheese,Bleu cheese
+Cheese,Cheddar
+Cheese,Cottage cheese
+Cheese,Cream cheese 
+Cheese,Feta
+Cheese,Goat cheese
+Cheese,Mozzarella 
+Cheese,Parmesan 
+Cheese,Provolone 
+Cheese,Ricotta 
+Cheese,Sandwich slices 
+Cheese,Swiss
+Italian,Spaghetti Sauce
+Italian,Tomato Paste
+Italian,Tomato Sauce
+Italian,Angel Hair Pasta
+Italian,Elbow Macaroni
+Italian,Lasagne Pasta
+Italian,Rotelle Pasta
+Italian,Shells Pasta
+Italian,Spaghetti Pasta
+Italian,Vemicelli Pasta
+Mexican,Green Chili
+Mexican,Refried Beans
+Mexican,Salsa
+Mexican,Spanish Rice
+Mexican,Tacos
+Mexican,Tortillias - Corn
+Mexican,Tortillias - Flour
+Packaged,Baking Powder
+Packaged,Baking Soda
+Packaged,Brown Sugar
+Packaged,Brownie Mix
+Packaged,Cake Mix
+Packaged,Cereal
+Packaged,Cocoa
+Packaged,Cornstarch
+Packaged,Flour
+Packaged,Jello
+Packaged,Oatmeal
+Packaged,Pancake Mix
+Packaged,Rice
+Packaged,Sugar
+Packaged,Vanilla Extract
+Baby Items,Diapers
+Baby Items,Formula
+Baby Items,Lotion
+Baby Items,Oil
+Baby Items,Rash Cream
+Baby Items,Shampoo
+Baby Items,Wipes
+Baby Food,Apple Juice
+Baby Food,Applesauce
+Baby Food,Bananas
+Baby Food,Beef
+Baby Food,Carrots
+Baby Food,Chicken
+Baby Food,Dinners
+Baby Food,Greenbeans
+Baby Food,Mixed Veg.
+Baby Food,Peaches
+Baby Food,Pears
+Baby Food,Squash
+Baby Food,Sweet Potato
+Baby Food,Veal
+Medicine,Antiacid
+Medicine,Bandaids
+Medicine,Cough Drops
+Medicine,First Aid Cream
+Medicine,Hydrogen Peroxide
+Medicine,Pain-Reliever
+Medicine,Rubbing Alcohol
+Pet Items,Dog Food
+Pet Items,Cat Food
+Pet Items,Cat Litter
+Toiletries,Anti-Bacterial Soap
+Toiletries,Deodorant
+Toiletries,Floss
+Toiletries,Lotion
+Toiletries,Mouthwash
+Toiletries,Petroleum Jelly
+Toiletries,Razors
+Toiletries,Shampoo
+Toiletries,Shaving Cream
+Toiletries,Soap
+Toiletries,Toothbrush
+Toiletries,Toothpaste
+Paper,Foil
+Paper,Freezer Bags
+Paper,Kitchen Bags
+Paper,Paper Towels
+Paper,Plastic Wrap
+Paper,Sandwich Bags
+Paper,Storage Bags
+Paper,Tissue
+Paper,Toilet Paper
+Paper,Trash Bag
+Paper,Yard Bags
+Cleaners,Air Freshner
+Cleaners,Bleach
+Cleaners,Broom
+Cleaners,Dishwasher Detergent
+Cleaners,Dishwashing Soap
+Cleaners,Dryer Sheets
+Cleaners,Furniture Polish
+Cleaners,Glass Cleaner
+Cleaners,Laundry Detergent
+Cleaners,Mop
+Cleaners,Scrub Brush
+Cleaners,Sponges
+Cleaners,Toilet Bowl Cleaners
+Cleaners,Towels

@@ -4,7 +4,8 @@
 #import "PlacesViewController.h"
 #import "List.h"
 #import "UUID.h"
-
+#import "Place.h"
+#import "ItemCategory.h"
 
 @interface ShopperAppDelegate (CoreDataPrivate)
 @property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
@@ -196,6 +197,17 @@
 - (NSArray*) itemsForCoupon:(Coupon*)coupon
 {
 	return nil;
+}
+
+- (NSArray*) itemsForPlace:(Place*)place
+{
+	//return nil;
+	
+	//return [ItemCategory parseFile:[[self applicationDocumentsDirectory] stringByAppendingPathComponent: @"itemlist.txt"]];
+	//return [ItemCategory parseFile:@"itemlist.txt"];
+	return [ItemCategory parseFile:[[NSBundle mainBundle] pathForResource:@"itemlist" ofType:@"txt"]];
+	
+	
 }
 
 

@@ -55,6 +55,9 @@
 		B079F40212FD882A00EFF272 /* Coupon.m in Sources */ = {isa = PBXBuildFile; fileRef = B079F40112FD882A00EFF272 /* Coupon.m */; };
 		B079F40712FD8A0D00EFF272 /* shopper.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = B079F40612FD8A0D00EFF272 /* shopper.xcdatamodel */; };
 		B0D696CC1302340200EF21D1 /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D696CB1302340200EF21D1 /* ItemViewController.m */; };
+		B0F9F1E4131712CC009EE516 /* itemlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = B0F9F1E3131712CC009EE516 /* itemlist.txt */; };
+		B0F9F1E81317131A009EE516 /* ItemCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F9F1E71317131A009EE516 /* ItemCategory.m */; };
+		B0F9F1EB13171577009EE516 /* PlaceItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F9F1EA13171577009EE516 /* PlaceItemsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -148,6 +151,11 @@
 		B079F40612FD8A0D00EFF272 /* shopper.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = shopper.xcdatamodel; sourceTree = "<group>"; };
 		B0D696CA1302340200EF21D1 /* ItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemViewController.h; sourceTree = "<group>"; };
 		B0D696CB1302340200EF21D1 /* ItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemViewController.m; sourceTree = "<group>"; };
+		B0F9F1E3131712CC009EE516 /* itemlist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = itemlist.txt; sourceTree = "<group>"; };
+		B0F9F1E61317131A009EE516 /* ItemCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCategory.h; sourceTree = "<group>"; };
+		B0F9F1E71317131A009EE516 /* ItemCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCategory.m; sourceTree = "<group>"; };
+		B0F9F1E913171577009EE516 /* PlaceItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceItemsViewController.h; sourceTree = "<group>"; };
+		B0F9F1EA13171577009EE516 /* PlaceItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceItemsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +211,8 @@
 				B01A42191301C1BB00A096B1 /* MapViewController.m */,
 				B0D696CA1302340200EF21D1 /* ItemViewController.h */,
 				B0D696CB1302340200EF21D1 /* ItemViewController.m */,
+				B0F9F1E913171577009EE516 /* PlaceItemsViewController.h */,
+				B0F9F1EA13171577009EE516 /* PlaceItemsViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -239,6 +249,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B0F9F1E3131712CC009EE516 /* itemlist.txt */,
 				B0105E9C12FDBC760065BB09 /* Views */,
 				B079F40512FD89B700EFF272 /* DataModels */,
 				2899E5210DE3E06400AC0155 /* ShopperViewController.xib */,
@@ -360,6 +371,8 @@
 				B079F3F812FD86F000EFF272 /* Item.m */,
 				B079F40012FD882A00EFF272 /* Coupon.h */,
 				B079F40112FD882A00EFF272 /* Coupon.m */,
+				B0F9F1E61317131A009EE516 /* ItemCategory.h */,
+				B0F9F1E71317131A009EE516 /* ItemCategory.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -424,6 +437,7 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* ShopperViewController.xib in Resources */,
 				B0105E9E12FDBCA20065BB09 /* AddListView.xib in Resources */,
+				B0F9F1E4131712CC009EE516 /* itemlist.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +483,8 @@
 				B01A41E71301BAB400A096B1 /* PlaceViewController.m in Sources */,
 				B01A421A1301C1BB00A096B1 /* MapViewController.m in Sources */,
 				B0D696CC1302340200EF21D1 /* ItemViewController.m in Sources */,
+				B0F9F1E81317131A009EE516 /* ItemCategory.m in Sources */,
+				B0F9F1EB13171577009EE516 /* PlaceItemsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,6 +1,7 @@
 #import "PlaceViewController.h"
 #import "Place.h"
 #import "MapViewController.h"
+#import "PlaceItemsViewController.h"
 
 @implementation PlaceViewController
 @synthesize place;
@@ -111,6 +112,16 @@
 		[self.navigationController pushViewController:mapView animated:YES];
 	
 		[mapView release];
+	}
+	if(indexPath.section==3)
+	{
+		NSArray * items=[[[UIApplication sharedApplication] delegate] itemsForPlace:self.place];
+		
+		PlaceItemsViewController * placeItems=[[PlaceItemsViewController alloc] initWithPlace:self.place andItems:items];
+		
+		[self.navigationController pushViewController:placeItems animated:YES];
+		
+		[placeItems release];
 	}
 }
 
